@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpotlightPreview } from './ui/SpotlightPreview';
+
 
 const LandingPage = () => {
   return (
