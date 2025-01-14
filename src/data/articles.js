@@ -2,9 +2,9 @@ const articles = [
     {
       id: 1,
       image: "/images/images-articles-1.jpg",
-      title: "SSSSS",
-      description: "Explore the trends shaping the tech industry in 2024.",
-      content: "<p>Detailed content about the future of technology...</p>",
+      title: "Sebab abadi",
+      description: "Sebab, dalam diamnya perjalanan kita.",
+      content: "<p>Sebab, dalam diamnya perjalanan kita, kehidupan sendiri adalah puisi yang abadi, tertulis oleh tangan yang tak terlihat.</p>",
       gallery: [
         { id: 1, src: "/images/painting1.jpg", alt: "Painting on a T-shirt" },
         { id: 2, src: "/images/painting2.jpg", alt: "Painting on a Hoodie" },
@@ -14,9 +14,9 @@ const articles = [
     {
       id: 2,
       image: "/images/images-articles-2.jpg",
-      title: "Sustainable Design",
-      description: "How to incorporate sustainability into modern design.",
-      content: "<p>Detailed content about sustainable design...</p>",
+      title: "Ti-ba",
+      description: "Kehidupan adalah keberanian untuk tersesat.",
+      content: "<p>Kehidupan adalah keberanian untuk tersesat, dan manusia adalah pengembara yang tidak akan pernah tiba.</p>",
       gallery: [
         { id: 1, src: "/images/painting1.jpg", alt: "Eco-friendly T-shirt" },
         { id: 2, src: "/images/painting3.jpg", alt: "Sustainable Bag" },
@@ -25,9 +25,9 @@ const articles = [
     {
       id: 3,
       image: "/images/images-articles-3.jpg",
-      title: "AI and Innovation",
-      description: "The role of AI in driving innovation across industries.",
-      content: "<p>Detailed content about AI and innovation...</p>",
+      title: "Bengkok",
+      description: "Namun, lihatlah ia tak patah.",
+      content: "<p>Namun, lihatlah ia tak patah. Ia hanya berubah, beradaptasi, menemukan bentuk baru.</p>",
       gallery: [
         { id: 1, src: "/images/painting5.jpg", alt: "AI-inspired Artwork" },
         { id: 2, src: "/images/painting6.jpg", alt: "AI-driven Creativity" },
@@ -36,9 +36,9 @@ const articles = [
     {
       id: 4,
       image: "/images/images-articles-4.jpg",
-      title: "Blockchain and the Future",
-      description: "How blockchain technology is reshaping industries.",
-      content: "<p>Detailed content about blockchain...</p>",
+      title: "Gali",
+      description: "Menggali kuburannya sendiri.",
+      content: "<p>Manusia adalah makhluk yang terlalu sering menggali kuburannya sendiri dengan harapan menemukan harta di dalamnya. Dan ketika yang kita temukan hanyalah kehampaan, kita menyalahkan takdir, padahal takdir hanya bayangan langkah kita sendiri.</p>",
       gallery: [
         { id: 1, src: "/images/painting7.jpg", alt: "Blockchain Visualized" },
         { id: 2, src: "/images/painting8.jpg", alt: "Secure Transactions" },

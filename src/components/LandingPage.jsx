@@ -7,7 +7,7 @@ const LandingPage = () => {
       {/* Hero Section */}
       <div className="text-left px-2 md:px-24 pt-20">
         <h1 className="text-gray-300 text-4xl sm:text-6xl font-bold">
-          Cerita lewat coretan
+          Coret-coretan
         </h1>
         <p className="mt-4 text-lg sm:text-2xl text-gray-300">
           Maaf Websitenya masih dalam proses development 

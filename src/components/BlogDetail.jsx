@@ -24,7 +24,7 @@ const BlogDetail = ({ articles }) => {
         style={{ maxHeight: "500px" }}
       />
 
-      <h3 className="text-3xl font-bold text-gray-200 mb-6">Filosofi</h3>
+      {/* <h3 className="text-3xl font-bold text-gray-200 mb-6">Filosofi</h3> */}
       <article
         className="prose prose-lg lg:prose-xl dark:prose-invert mx-auto mb-16 text-gray-200"
         dangerouslySetInnerHTML={{ __html: article.content }}
