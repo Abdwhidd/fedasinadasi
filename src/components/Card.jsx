@@ -7,11 +7,14 @@ const Card = ({ imageSrc, title, description }) => {
       <img
         src={imageSrc}
         alt={title}
-        className="w-full h-56 object-cover"
+        className="w-full h-56 object-cover transition-transform duration-500 ease-in-out hover:scale-110"
       />
 
-      {/* Text Content with Blur Background */}
-      <div className="absolute bottom-0 left-0 w-full bg-white/30 backdrop-blur-md p-4 text-white">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+
+      {/* Text Content */}
+      <div className="absolute bottom-0 left-0 w-full p-4 text-white">
         <h2 className="text-lg font-bold">{title}</h2>
         <p className="text-sm mt-1">{description}</p>
       </div>

@@ -9,12 +9,12 @@ const ArticlesList = ({ articles }) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 py-12 bg-white">
+    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 py-12 bg-black">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-6 md:px-24">
         {articles.map((article) => (
           <div
             key={article.id}
-            className="relative rounded-lg overflow-hidden shadow-xl bg-white cursor-pointer"
+            className="relative rounded-lg overflow-hidden shadow-xl cursor-pointer group border-[1px] border-transparent bg-clip-border bg-gradient-to-r from-gray-600 via-gray-400 to-gray-600"
             onClick={() => handleNavigate(article.id)}
           >
             {/* Article Image */}
@@ -22,11 +22,11 @@ const ArticlesList = ({ articles }) => {
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
               />
             </div>
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-md flex flex-col justify-end p-6">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
               <h2 className="text-2xl font-bold text-white">
                 {article.title}
               </h2>
